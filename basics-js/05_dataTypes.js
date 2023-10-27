@@ -30,3 +30,26 @@ const myFunction = function () {
 console.log(typeof myFunction); //function
 console.log(typeof anotherId); //function
 
+//-------------------------------------------------------------
+
+//Stack (primtive)
+//Heap  (non-primtive) changes commit to og val
+
+let myYoutubeChannel = "ProgrammingwithBB"
+let anotherName = myYoutubeChannel
+anotherName = "ChaiaurCode"
+
+console.log(myYoutubeChannel);
+console.log(anotherName);
+
+let userOne = {
+    email : "user@mail.com"
+    upi : "user@bank"
+}
+
+let userTwo = userOne
+
+userTwo.email = "bajrang@google.com"
+
+console.log(userOne);
+console.log(userTwo);
